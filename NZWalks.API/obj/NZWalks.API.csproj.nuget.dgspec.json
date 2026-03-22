@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KhizarYousha\\source\\repos\\NZWalks-main\\NZWalks.API\\NZWalks.API.csproj": {}
+    "C:\\Users\\khiza\\source\\repos\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KhizarYousha\\source\\repos\\NZWalks-main\\NZWalks.API\\NZWalks.API.csproj": {
+    "C:\\Users\\khiza\\source\\repos\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KhizarYousha\\source\\repos\\NZWalks-main\\NZWalks.API\\NZWalks.API.csproj",
+        "projectUniqueName": "C:\\Users\\khiza\\source\\repos\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
         "projectName": "NZWalks.API",
-        "projectPath": "C:\\Users\\KhizarYousha\\source\\repos\\NZWalks-main\\NZWalks.API\\NZWalks.API.csproj",
-        "packagesPath": "C:\\Users\\KhizarYousha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KhizarYousha\\source\\repos\\NZWalks-main\\NZWalks.API\\obj\\",
+        "projectPath": "C:\\Users\\khiza\\source\\repos\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "packagesPath": "C:\\Users\\khiza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khiza\\source\\repos\\NZWalks\\NZWalks\\NZWalks.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KhizarYousha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\khiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,21 +45,25 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -85,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
